@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avita Scheme Login</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <link href="assets/css/font.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="head">
+            <div class="container">
+                <a href="index.html" class="d-flex align-items-center justify-content-center">
+                    <img src="assets/img/dummy logo white 1.png" alt="" class="logo">
+                </a>
+
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler menuToggle" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="storelocator.html">Store Locator</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="tel:+18003930398" class="contactnumber numberfont">
+                                <iconify-icon icon="line-md:phone-call-loop"></iconify-icon> +1800 393 0398
+                            </a>
+                            <a href="login.html" class="loginbtn ms-3">Login</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       
+        <section class="position-relative" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="maskedtexture">
+                <div class="texture"></div>
+            </div>
+            <div class="position-absolute w-100 left-0" style="top: 5%;">
+               
+                <div class="position-relative" id="tooltip">
+                    <div id="tooltip1" class="tooltip">
+                       <p class="fw-600 m-0">Avita Jewellery - Puthukad</p>
+                       <p>28, Service Road, Puthukad, Kerala</p>
+                    </div>
+                    <div id="tooltip2" class="tooltip">
+                        <p class="fw-600 m-0">Avita Jewellery - Puthukad</p>
+                        <p>28, Service Road, Puthukad, Kerala</p>
+                    </div>
+                    <div id="tooltip3" class="tooltip">
+                        <p class="fw-600 m-0">Avita Jewellery - Puthukad</p>
+                        <p>28, Service Road, Puthukad, Kerala</p>
+                    </div>
+                    <div id="tooltip4" class="tooltip">
+                        <p class="fw-600 m-0">Avita Jewellery - Puthukad</p>
+                        <p>28, Service Road, Puthukad, Kerala</p>
+                    </div>
+                    <div id="tooltip5" class="tooltip">
+                        <p class="fw-600 m-0">Avita Jewellery - Puthukad</p>
+                        <p>28, Service Road, Puthukad, Kerala</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="findstore">
+                        <h1 class="fw-600">Find Your Nearest Store</h1>
+                        <h6>Welcome to our store locator! Find our branches near you and explore our exquisite jewelry collections. Whether you’re looking for gold, silver, or precious gemstones, our friendly staff at each location is ready to assist you.</h6>
+                    </div>
+                </div>
+               <div class="container svgmap">
+
+                
+
+                <svg width="100%" height="100%" viewBox="0 0 1091 549" fill="none" id="svgresponsive" class="svgresponsive"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <a class="svg_hover" id="link1">
+                    
+                    <g clip-path="url(#clip0_61_771)">
+                        <rect x="378" y="202" width="21" height="21" rx="3" fill="white" />
+                        <path
+                            d="M380.596 210.752V215.127C380.596 217.601 380.596 218.839 381.364 219.608C382.134 220.377 383.371 220.377 385.846 220.377H388.471M384.096 216.877H387.596M394.159 216.877H394.167M386.841 208.933C386.594 209.825 385.697 211.364 383.992 211.587C382.487 211.784 381.344 211.126 381.053 210.852C380.732 210.628 379.999 209.914 379.819 209.468C379.64 209.022 379.849 208.056 379.999 207.661L380.596 205.929C380.742 205.493 381.084 204.463 381.434 204.115C381.784 203.767 382.493 203.752 382.785 203.752H388.916C390.493 203.774 393.943 203.738 394.625 203.752C395.308 203.766 395.717 204.338 395.837 204.583C396.855 207.051 397.25 208.465 397.25 209.067C397.117 209.71 396.568 210.922 394.625 211.454C392.606 212.008 391.462 210.931 391.103 210.518M386.011 210.518C386.295 210.867 387.187 211.57 388.478 211.588C389.771 211.606 390.886 210.704 391.283 210.25C391.395 210.116 391.637 209.719 391.889 208.934M394.159 213.814C395.85 213.814 397.221 215.16 397.221 216.819C397.221 218.697 395.37 219.619 394.487 221.027C394.299 221.327 394.032 221.327 393.831 221.027C392.92 219.673 391.096 218.657 391.096 216.819C391.096 215.16 392.467 213.814 394.159 213.814Z"
+                            stroke="#B98404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </a>
+                <a  class="svg_hover" id="link2"> 
+                    <g clip-path="url(#clip2_61_771)">
+                        <rect x="413" y="296" width="21" height="21" rx="3" fill="white" />
+                        <path
+                            d="M415.596 304.752V309.127C415.596 311.601 415.596 312.839 416.364 313.608C417.134 314.377 418.371 314.377 420.846 314.377H423.471M419.096 310.877H422.596M429.159 310.877H429.167M421.841 302.933C421.594 303.825 420.697 305.364 418.992 305.587C417.487 305.784 416.344 305.126 416.053 304.852C415.732 304.628 414.999 303.914 414.819 303.468C414.64 303.022 414.849 302.056 414.999 301.661L415.596 299.929C415.742 299.493 416.084 298.463 416.434 298.115C416.784 297.767 417.493 297.752 417.785 297.752H423.916C425.493 297.774 428.943 297.738 429.625 297.752C430.308 297.766 430.717 298.338 430.837 298.583C431.855 301.051 432.25 302.465 432.25 303.067C432.117 303.71 431.568 304.922 429.625 305.454C427.606 306.008 426.462 304.931 426.103 304.518M421.011 304.518C421.295 304.867 422.187 305.57 423.478 305.588C424.771 305.606 425.886 304.704 426.283 304.25C426.395 304.116 426.637 303.719 426.889 302.934M429.159 307.814C430.85 307.814 432.221 309.16 432.221 310.819C432.221 312.697 430.37 313.619 429.487 315.027C429.299 315.327 429.032 315.327 428.831 315.027C427.92 313.673 426.096 312.657 426.096 310.819C426.096 309.16 427.467 307.814 429.159 307.814Z"
+                            stroke="#B98404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </a>
+                <a  class="svg_hover" id="link3">
+                    <g clip-path="url(#clip3_61_771)">
+                        <rect x="456" y="379" width="21" height="21" rx="3" fill="white" />
+                        <path
+                            d="M458.596 387.752V392.127C458.596 394.601 458.596 395.839 459.364 396.608C460.134 397.377 461.371 397.377 463.846 397.377H466.471M462.096 393.877H465.596M472.159 393.877H472.167M464.841 385.933C464.594 386.825 463.697 388.364 461.992 388.587C460.487 388.784 459.344 388.126 459.053 387.852C458.732 387.628 457.999 386.914 457.819 386.468C457.64 386.022 457.849 385.056 457.999 384.661L458.596 382.929C458.742 382.493 459.084 381.463 459.434 381.115C459.784 380.767 460.493 380.752 460.785 380.752H466.916C468.493 380.774 471.943 380.738 472.625 380.752C473.308 380.766 473.717 381.338 473.837 381.583C474.855 384.051 475.25 385.465 475.25 386.067C475.117 386.71 474.568 387.922 472.625 388.454C470.606 389.008 469.462 387.931 469.103 387.518M464.011 387.518C464.295 387.867 465.187 388.57 466.478 388.588C467.771 388.606 468.886 387.704 469.283 387.25C469.395 387.116 469.637 386.719 469.889 385.934M472.159 390.814C473.85 390.814 475.221 392.16 475.221 393.819C475.221 395.697 473.37 396.619 472.487 398.027C472.299 398.327 472.032 398.327 471.831 398.027C470.92 396.673 469.096 395.657 469.096 393.819C469.096 392.16 470.467 390.814 472.159 390.814Z"
+                            stroke="#B98404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </a>
+                <a class="svg_hover" id="link4">
+                    <g clip-path="url(#clip4_61_771)">
+                        <rect x="616" y="310" width="21" height="21" rx="3" fill="white" />
+                        <path
+                            d="M618.596 318.752V323.127C618.596 325.601 618.596 326.839 619.364 327.608C620.134 328.377 621.371 328.377 623.846 328.377H626.471M622.096 324.877H625.596M632.159 324.877H632.167M624.841 316.933C624.594 317.825 623.697 319.364 621.992 319.587C620.487 319.784 619.344 319.126 619.053 318.852C618.732 318.628 617.999 317.914 617.819 317.468C617.64 317.022 617.849 316.056 617.999 315.661L618.596 313.929C618.742 313.493 619.084 312.463 619.434 312.115C619.784 311.767 620.493 311.752 620.785 311.752H626.916C628.493 311.774 631.943 311.738 632.625 311.752C633.308 311.766 633.717 312.338 633.837 312.583C634.855 315.051 635.25 316.465 635.25 317.067C635.117 317.71 634.568 318.922 632.625 319.454C630.606 320.008 629.462 318.931 629.103 318.518M624.011 318.518C624.295 318.867 625.187 319.57 626.478 319.588C627.771 319.606 628.886 318.704 629.283 318.25C629.395 318.116 629.637 317.719 629.889 316.934M632.159 321.814C633.85 321.814 635.221 323.16 635.221 324.819C635.221 326.697 633.37 327.619 632.487 329.027C632.299 329.327 632.032 329.327 631.831 329.027C630.92 327.673 629.096 326.657 629.096 324.819C629.096 323.16 630.467 321.814 632.159 321.814Z"
+                            stroke="#B98404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </a>
+                <a class="svg_hover" id="link5">
+                    <g xmlns="http://www.w3.org/2000/svg" clip-path="url(#clip1_61_771)">
+                        <rect x="456" y="285" width="21" height="21" rx="3" fill="white" />
+                        <path
+                            d="M458.596 293.752V298.127C458.596 300.601 458.596 301.839 459.364 302.608C460.134 303.377 461.371 303.377 463.846 303.377H466.471M462.096 299.877H465.596M472.159 299.877H472.167M464.841 291.933C464.594 292.825 463.697 294.364 461.992 294.587C460.487 294.784 459.344 294.126 459.053 293.852C458.732 293.628 457.999 292.914 457.819 292.468C457.64 292.022 457.849 291.056 457.999 290.661L458.596 288.929C458.742 288.493 459.084 287.463 459.434 287.115C459.784 286.767 460.493 286.752 460.785 286.752H466.916C468.493 286.774 471.943 286.738 472.625 286.752C473.308 286.766 473.717 287.338 473.837 287.583C474.855 290.051 475.25 291.465 475.25 292.067C475.117 292.71 474.568 293.922 472.625 294.454C470.606 295.008 469.462 293.931 469.103 293.518M464.011 293.518C464.295 293.867 465.187 294.57 466.478 294.588C467.771 294.606 468.886 293.704 469.283 293.25C469.395 293.116 469.637 292.719 469.889 291.934M472.159 296.814C473.85 296.814 475.221 298.16 475.221 299.819C475.221 301.697 473.37 302.619 472.487 304.027C472.299 304.327 472.032 304.327 471.831 304.027C470.92 302.673 469.096 301.657 469.096 299.819C469.096 298.16 470.467 296.814 472.159 296.814Z"
+                            stroke="#B98404" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </a>
+            </svg>
+            <!-- <img src="assets/img/store location.svg" alt="Store Location" style="width: 100%; height: 100%;"> -->
+               </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container pt-5">
+                <div class="row pb-4" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="store_card card">
+                            <div class="icon">
+                                <iconify-icon icon="bi:whatsapp"></iconify-icon>
+                            </div>
+                            <h6>Chat to sales</h6>
+                            <p>Speak to our friendly Team.</p>
+                            <a href="tel:+919876543210" class="numberfont">+919876543210</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="store_card card">
+                            <div class="icon">
+                                <iconify-icon icon="hugeicons:mail-02"></iconify-icon>
+                            </div>
+                            <h6>Chat to sales</h6>
+                            <p>Speak to our friendly Team.</p>
+                            <a href="mailto:support@avitajewellery.com" class="numberfont">support@avitajewellery.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="store_card card">
+                            <div class="icon">
+                                <iconify-icon icon="hugeicons:store-location-01"></iconify-icon>
+                            </div>
+                            <h6>Visit us</h6>
+                            <p>Visit our Head office</p>
+                            <a href="#" class="numberfont">View on Google map</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="store_card card">
+                            <div class="icon">
+                                <iconify-icon icon="ph:phone-call-light"></iconify-icon>
+                            </div>
+                            <h6>Call us</h6>
+                            <p>Mon - Sat from 8am to 6pm</p>
+                            <a href="tel:+1800 393 0398" class="numberfont">+1800 393 0398</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class=" col-md-6 col-12">
+                        <h1 class="fw-600">Love to hear from you <br>
+
+                            Get in touch <img src="assets/img/hand emoji.png" alt=""></h1>
+
+                            <form action="#" class="contFrm" method="POST">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                                  </div>
+                      
+                                  <div class="col-sm-6">
+                                    <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                                  </div>
+                      
+                                  <div class="col-sm-6">
+                                    <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                                  </div>
+                      
+                                  <div class="col-sm-6">
+                                    <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                                  </div>
+                      
+                                  <div class="col-12">
+                                    <textarea class="inptFld" rows="5" cols="" placeholder="Your Message..." required></textarea>
+                                  </div>
+                      
+                                  <div class="col-sm-6 col-12">
+                                    <input type="submit" name="submit" value="Submit" class="inptBtn" />
+                                  </div>
+                                </div>
+                              </form>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img src="assets/img/contact.png" alt="" class="contactimg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="row py-4 my-5">
+                    <div class="m-auto" style="width: fit-content;">
+                        <h3 class="text-center mb-3 fw-600 primaryclr">Contact us</h3>
+                        <div class="underdecor justify-content-center d-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="22" viewBox="0 0 48 18"
+                                fill="none">
+                                <line x1="0.5" y1="9.02295" x2="6.5" y2="9.02295" stroke="#B98404">
+                                    <animate attributeName="x1" attributeType="XML" from="0.5" to="-200" begin="250ms"
+                                        dur="3000ms" fill="freeze" />
+                                </line>
+                                <line x1="41.5" y1="9.02295" x2="40" y2="9.02295" stroke="#B98404">
+                                    <animate attributeName="x1" attributeType="XML" from="40" to="240" begin="250ms"
+                                        dur="3000ms" fill="freeze" />
+                                </line>
+                                <rect x="14.1104" y="1.23006" width="10.9884" height="10.9884"
+                                    transform="rotate(45 14.1104 1.23006)" stroke="#B98404" />
+                                <rect x="23.6465" y="1.23006" width="10.9884" height="10.9884"
+                                    transform="rotate(45 23.6465 1.23006)" stroke="#B98404" />
+                                <rect x="33.5371" y="1.23006" width="10.9884" height="10.9884"
+                                    transform="rotate(45 33.5371 1.23006)" stroke="#B98404" />
+                            </svg>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row ">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>1.Head Quaters - Edapally</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>1.Head Quaters - Edapally</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>2.Lulu Mall Branch - Edapally</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>3.Avita Branch - Puthukad</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>4.Avita Branch - Mulanthuruty</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card contcard">
+                            <h5>5.Avita Branch - Muvattupuzha</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="100%" height="200" frameborder="0"  allowfullscreen></iframe>
+                            <p><b>Branch Manager :</b> M.Divakaran Nambiar</p>
+                            <p><b>Inauguration Date :</b> June 12 2023</p>
+                            <p><b>Contact :</b> +91 484 280 5567</p>
+                            <p><b>Location:</b> <br>
+                                34/40, Bypass Road, Edapally, Kochi, Kerala</p>
+                            <p><b>Branch Aesthetics :</b> <br> The boutique boasts a sleek, modern interior with glass display cases showcasing our latest jewelry collections. Soft lighting highlights the intricate details of each piece.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="help p-3 fs-5 text-white">
+                <p>Helpline Number</p>
+                <iconify-icon icon="line-md:phone-call-loop"></iconify-icon> 
+                <a href="" class="fw-600 numberfont">1800 393 0398</a>
+            </div>
+            <div class="newsletter py-5">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mb-3 fw-500 primaryclr fs-4">Join Our News Letter</h2>
+                        <div class="subscribe">
+                            <input type="email"/>
+                            <input type="submit"/>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-4">
+        <div class="container-fluid">
+            <div class="mx-xl-5 mx-0 px-xl-5 px-md-4 px-0 my-4">
+                <div class="row">
+                    <div class="col-lg-4 pb-2">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-12 col-sm-6 col-12">
+                                <div class="footlogo">
+                                   <a href="index.html"><img src="assets/img/dummy logo 2.png" alt=""></a>
+                                </div>
+                                <div class="d-flex flex-nowrap pb-4">
+                                    <img src="assets/img/appstore.png" alt="" class="storeicon">
+                                    <img src="assets/img/playstore.png" alt="" class="storeicon">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 col-sm-6 col-12">
+                                <h6 class="foothead">Get in Touch</h6>
+                                <ul class="social pb-4">
+                                    <li>
+                                        <a href="https://www.facebook.com/sioniqerp" target="_blank"><iconify-icon
+                                                icon="ri:facebook-fill"></iconify-icon></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/sioniq_erp/" target="_blank"><iconify-icon
+                                                icon="bi:instagram"></iconify-icon></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://in.linkedin.com/company/sioniq-tech-pvt-ltd"
+                                            target="_blank"><iconify-icon icon="jam:linkedin"></iconify-icon></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/@SIONIQERP" target="_blank"><iconify-icon
+                                                icon="mdi:youtube"></iconify-icon></a>
+                                    </li>
+                                </ul>
+                                <ul class="footmenu">
+                                    <li><a href="tel:+919876543210" class="numberfont text-decoration-underline">+91
+                                            9876 543 210</a></li>
+                                    <li><a href="mailto:schemes@avitajewellery.com"
+                                            class="text-decoration-underline">schemes@avitajewellery.com</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5 pb-2">
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <h6 class="foothead">Media</h6>
+                                <ul class="footmenu">
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Promotions</a></li>
+                                    <li><a href="#">News & Events</a></li>
+                                    <li><a href="#">Trending</a></li>
+                                    <li><a href="#">Investors</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <h6 class="foothead">About</h6>
+                                <ul class="footmenu">
+                                    <li><a href="about.html" >About Us</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">FAQ’s</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <h6 class="foothead">Policies</h6>
+                                <ul class="footmenu">
+                                    <li><a href="#">Disclaimer</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms and Condition</a></li>
+                                    <li><a href="#">Cancellation</a></li>
+                                    <li><a href="#">Refund</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 pb-2">
+                        <h6 class="foothead">Policies</h6>
+                        <div class="d-flex flex-nowrap location align-items-center grid gap-2 footmenu flex-row">
+                            <iconify-icon icon="hugeicons:location-08"></iconify-icon>
+                            <a href="">Avita Jewllery Pvt Ltd, <br>Sector 45, Faridabad, Haryana 121003</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="copyrights">
+            <h6>All Rights Reserved © 2024, Avita Jewellery</h6>
+            <h6>Developed by <a href="www.sioniq.com">Sioniq Tech Pvt Ltd</a></h6>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+        // Select the header element
+        const header = document.getElementById('header');
+
+        // Function to toggle .position-sticky class based on scroll position
+        window.addEventListener('scroll', () => {
+
+            if (window.scrollY > window.innerHeight * 0.01) {
+                header.classList.add('stickyheader');
+            } else {
+                header.classList.remove('stickyheader');
+            }
+        });
+
+// -------------
+
+        document.addEventListener('DOMContentLoaded', () => {
+    const tooltips = document.querySelectorAll('.tooltip');
+    const svgLinks = document.querySelectorAll('svg a');
+
+    svgLinks.forEach((link, index) => {
+        const tooltip = document.getElementById(`tooltip${index + 1}`);
+
+        const showTooltip = (event) => {
+            const rect = link.getBoundingClientRect();
+            tooltip.style.left = `${rect.left + window.scrollX-100}px`;
+            tooltip.style.top = `${rect.top + window.scrollY - tooltip.offsetHeight - 250}px`; // Adjusted for spacing
+            tooltip.style.display = 'block';
+            tooltip.style.opacity = '1';
+
+        };
+
+        const hideTooltip = () => {
+            tooltip.style.display = 'none';
+        };
+
+        link.addEventListener('mouseenter', showTooltip);
+        link.addEventListener('mouseleave', hideTooltip);
+        link.addEventListener('focus', showTooltip);
+        link.addEventListener('blur', hideTooltip);
+    });
+});
+
+
+
+window.addEventListener('resize', () => {
+    const svg = document.getElementById('svgresponsive');
+
+    if (window.innerWidth >= 768) {
+        
+        svg.setAttribute('viewBox', '0 0 1091 549');
+        svg.setAttribute('width', '100%');
+    } else {
+        svg.setAttribute('viewBox', '270 0 1091 549');
+        svg.setAttribute('width', '200%');
+    }
+});
+
+
+
+    </script>
+    <script src="assets/js/iconify.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.js"></script> -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
